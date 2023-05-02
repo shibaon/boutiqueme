@@ -1,0 +1,28 @@
+.root {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  cursor: default;
+  user-select: none;
+}
+.logo {
+  font-size: 65px;
+  text-decoration: underline;
+}
+.logo small {
+  font-size: 14px;
+}
+.disclaimer {
+  text-transform: uppercase;
+  text-align: right;
+  animation: disclaimerAnimation 5s infinite;
+}
+@keyframes disclaimerAnimation {
+  0% { opacity: .1; }
+  50% { opacity: 1; }
+  100% { opacity: .1; }
+}
